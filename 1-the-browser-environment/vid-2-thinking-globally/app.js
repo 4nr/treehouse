@@ -13,6 +13,6 @@ colorButton.addEventListener('click', () => {
 });
 
 sizeButton.addEventListener('click', () => {
-  myHeading.style.fontSize = int(sizeInput.value)px;
+  myHeading.style.fontSize = sizeInput.value+"px";
 });
 
