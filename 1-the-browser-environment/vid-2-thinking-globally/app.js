@@ -1,11 +1,18 @@
 const myHeading = document.getElementById('myHeading');
-const myButton = document.getElementById('myButton');
-const myTextInput = document.getElementById('myTextInput')
-
+const colorButton = document.getElementById('colorButton');
+const colorInput = document.getElementById('colorInput');
+const sizeButton = document.getElementById('sizeButton');
+const sizeInput = document.getElementById('sizeInput');
+/*
 myHeading.addEventListener('click', () => {
   myHeading.style.color = 'red';
 });
-
-myButton.addEventListener('click', () => {
-  myHeading.style.color = myTextInput.value;
+*/
+colorButton.addEventListener('click', () => {
+  myHeading.style.color = colorInput.value;
 });
+
+sizeButton.addEventListener('click', () => {
+  myHeading.style.fontSize = int(sizeInput.value)px;
+});
+
